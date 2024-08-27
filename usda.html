@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="author" content="Garrett Martin">    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="styleSheet/stylesheet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="../img/logo/gmLogoPurple_circle@2x.png" type="image/x-icon"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<title>Garrett Martin Design | USDA</title>
+<style>
+    
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+<!--Side Navigation------------------------------------------------------------------->
+<div class="container-fluid">
+    <div class="row">
+    <!--Mobile Nav Bar --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-md-none navbar-mobile">
+      <a class="navbar-brand" href="index.html">
+          <span class="d-flex align-items-center">
+              <img src="img/headshot/simiportrait.png" alt="GDM logo" width="80px" class="mr-3">
+              <span class="pt-2">
+                  <h3>Garrett Martin</h3>
+                  <h4><em>UX/UI Designer</em></h4>
+              </span>
+          </span> 
+      </a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="stack.html">The Stack</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Featured Work
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Sierra's Race</a>
+                  <a class="dropdown-item" href="usda.html">USDA</a>
+                  <a class="dropdown-item  page-active" href="#">The Sound Room</a>
+              </div>
+          </li>
+          </ul>
+      </div>
+     
+    </nav>
+  <!--Desktop/Tablet Nav Bar --->
+    <section class="d-none d-md-block col-md-2 fixed-top" id="sideNav">
+      <div class="container margin mt-3" id="navHeader">
+          <div class="logo mb-2">
+              <a href="index.html"><img src="img/headshot/simiportrait.png" alt="GMD Logo" width="52px" max-width="80px"></a>
+          </div>
+          <div class="navTitle mb-5">
+              <h3>Garrett Martin</h3>
+              <h4><em>UX/UI Designer</em></h4>
+          </div>
+      </div>
+      <nav class="navbar bg-body-tertiary mb-5 side-nav">
+          <a class="container-fluid nav-item d-flex align-content-center" href="index.html">
+              <div class="navbar-brand icon" width="auto">
+                  <img src="img/icons/SVG/homeIcon.svg" alt="Logo"  class="d-inline-block ml-1 mr-2">
+                  <span class="hidden">Home</span>
+              </div>
+          </a>
+          <a class="container-fluid nav-item d-flex align-content-center" width="100%" href="stack.html">
+              <div class="navbar-brand icon" width="auto">
+                  <img src="img/icons/SVG/stackIcon.svg" alt="Logo"  class="d-inline-block ml-1 mr-2">
+                  The Stack
+              </div>
+          </a>  
+          <a class="container-fluid nav-item d-flex align-content-center" width="100%" href="aboutme.html">
+              <div class="navbar-brand icon" width="auto">
+                  <img src="img/icons/SVG/aboutIcon.svg" alt="Logo"  class="d-inline-block ml-1 mr-2">
+                  About Me
+              </div>
+          </a>  
+          <a class="container-fluid nav-item d-flex align-content-center" width="100%" href="contact.html">
+              <div class="navbar-brand icon" width="auto">
+                  <img src="img/icons/SVG/contactIcon.svg" alt="Logo"  class="d-inline-block ml-1 mr-2">
+                  Contact
+              </div>
+          </a>      
+          
+      </nav>
+      <!--currently hidden---------------------------------------
+      <div class="dropdown mt-5" id="featured-work" width="90%">
+          <button type="button" class="btn btn-primary dropdown-toggle custom-button" data-toggle="dropdown">
+          Featured Projects
+          </button>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Sierra's Race</a>
+              <a class="dropdown-item  page-active" href="usda.html">USDA</a>
+              <a class="dropdown-item" href="#">The Sound Room</a>
+          </div>
+      </div>  
+      -->
+      <div class="footInfo container footer-type fixed-bottom">
+          <p >@2024<br>Garrett Martin Design</p>
+      </div>
+    </section>
+        <div class="col-md mt-2" id="main">
+            <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+                <a class="navbar-brand" href="#">USDA Redesign</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">User Testing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Information Architecture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading3">Prototyping</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading4">Testing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading5">Results</a>
+                  </li>
+                </ul>
+            </nav>
+            <div class="jumbotron jumbotron-fluid margin-header">
+                <div class="container">
+                  <h1 class="container mb-4">U.S. Department of Agriculture<br>
+                  <em class="subHeaderColor">Case Study: Homepage UI Redesign</em></h1>
+                  <div class="container grid mb-4">
+                    <div class="row">
+                      <div class="card col service-card rounded-lg">
+                        <div class="card-body">
+                          <h5 class="card-title mb-3">Project Brief</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                          <p class="card-text">Using user research usability testing methods to bring new life to the United States Department of Agriculture website.</p>
+                        </div>
+                      </div>
+                      <div class="card col service-card rounded-lg">
+                        <div class="card-body">
+                          <h5 class="card-title mb-3">Context</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                          <p class="card-text">For the Univeristy of Denver UX/UI case study assignment. Choose a government website to redesign its user interface.</p>
+                        </div>  
+                      </div>
+                    </div>
+                  </div>  
+                  <img src="img/caseStudies/usdaRedesign/graphic design:design system/mockups/desktop-mockup.png" height="400px" alt="imgTest">
+                </div>  
+            </div>
+            <div class="container grid">
+              <div class="row">
+                <div class="card col service-card rounded-lg">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Team Memebers</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                    <p class="card-text">Amanda Sahaida <em>UX Researcher</em><br>Garrett Martin <em>UX Researcher & UI Designer</em></p>
+                  </div>
+                </div>
+                <div class="card col service-card rounded-lg">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">My Role</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                    <p class="card-text">After user testing was complete from the current USDA's current state was complete, my role shifted to visual design, interactive designer, and usuability testing.</p>
+                  </div>  
+                </div>
+              </div> 
+              <div class="row">
+                <div class="card col service-card rounded-lg">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Tools</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                    <div class="row d-flex justify-content-between">
+                      <div class="col">
+                        <img  class="icon-tools" src="/img/logo/pushLogos/figma logo.png"  alt="figma logo">
+                      </div>
+                      <div class="col">
+                        <img  class="icon-tools" src="/img/logo/pushLogos/after effects logo.png" alt="after effects logo">
+                      </div>
+                      <div class="col">
+                        <img  class="icon-tools" src="/img/logo/pushLogos/miro logo.png" alt="miro logo">
+                      </div>
+                      <div class="col">
+                        <img  class="icon-tools" src="/img/logo/pushLogos/trello logo.png" alt="trello logo">
+                      </div>
+                    </div>  
+                  </div> 
+                </div>   
+                <div class="card col service-card rounded-lg">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Duration</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                    <p class="card-text">3 Weeks</p>
+                  </div>  
+                </div>   
+              </div>  
+              <div class="row grid">
+                <div class="card col service-card rounded-lg">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Problem</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                    <p class="card-text">The current state of the USDA's website is lacking up-dated user interface visuals and provides the user with a less-than adequate browsing.</p>
+                  </div>  
+                </div>
+                <div class="card col service-card rounded-lg">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Solution</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                    <p class="card-text">The solution is to evelauate the site more, perform hueristic evaluations, information architecture analytics and organization, and adapt a new deign system.</p>
+                  </div>  
+                </div>
+              </div>  
+            </div>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-5 rounded-2" tabindex="0">
+              <section class="pt-4 " id="scrollspyHeading1">
+                <div class="container cs-container">
+                  <h2 class="under-line pb-3">User Testing</h2>
+                </div>
+                <div class="container cs-container" id="personas">
+                  <div class="cs-container row grid">
+                    <div class="col ">
+                      <h4>Who's the Users?</h4>
+                      <p>We found that users for the USDA vary. A wide spectrum use the site for buisness needs; keeping up-to-date, submission forms, general and specific information.
+                        These business range any where from small local own restaurant to Whole Foods to food distribution entities.<br>
+                      The need for non business perpuposed seem to be not as high. but it is still interesting to read the lastest information regrading agriculture and similar topics.</p>
+                    </div>
+                    <div class="col">
+                      <img src="/img/caseStudies/usdaRedesign/deliverables/Persona.png" width="75%" alt="x">
+                    </div>
+                  </div>
+                </div>
+                <div class="container" id="transcipts">
+                  <h4>Interview Transcipts</h4>
+                  <p>Users were giving the tasks to open the USDA's website > find a specific form > and perform general browsing -- targeting the global navigation.</p>
+                  <div class="cs-container grid row">
+                    <div class="col p-4">
+                      <blockquote>
+                        <p>
+                          “I can see this being a great resource for small and large businesses. But it feels a little boring and confusing to use.”
+                        </p>
+                        <footer >
+                          - Brandon M.
+                        </footer>
+                      </blockquote>
+                    </div>
+                    <div class="col p-4">
+                      <blockquote>
+                        <p>
+                          “Bummed out about design but not surprised, “its a government website. Navigating is not awful, just a little up lift would do."”
+                        </p>
+                        <footer>
+                          - Jake M.
+                        </footer>
+                      </blockquote>
+                    </div>
+                    <div class="col p-4">
+                      <blockquote>
+                        <p>
+                          “The UI could be “more colorful and exciting ... towards the bottom gets more lively.””
+                        </p>
+                        <footer>
+                          - Sam B.
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>  
+                </div>  
+                
+              </section>  
+
+              <div class="nav-counter" id="scrollspyHeading2">
+                  
+                  <div class="jumbotron jumbotron-fluid margin-top">
+                    <h4>Information Architecture</h4>
+                      <div class="container">
+                          <img src="img/caseStudies/usdaRedesign/graphic design:design system/imgs/phoneMockup_USDA.jpg" width="100%" alt="imgTest">
+                          <h1>U.S. Department of Agriculture<br>
+                          <span class="subHeaderColor">Case Study: Homepage UI Redesign</span></h1>
+                      </div>  
+                  </div>
+                  
+                  <p>...</p>
+              </div>
+              <div class="nav-counter" id="scrollspyHeading3">  
+                 
+                  <div class="jumbotron jumbotron-fluid margin-top">
+                    <h4>Prototyping</h4>
+                          <img src="img/caseStudies/usdaRedesign/graphic design:design system/imgs/phoneMockup_USDA.jpg" width="100%" alt="imgTest">
+                          <h1>U.S. Department of Agriculture<br>
+                          <span class="subHeaderColor">Case Study: Homepage UI Redesign</span></h1>
+                  </div>
+                  <p>...</p>
+              </div>  
+              <div class="nav-counter" id="scrollspyHeading4">    
+                  
+                  <div class="jumbotron jumbotron-fluid margin-top">
+                    <h4>Testing & Iterations</h4>
+                      <div class="container">
+                          <img src="img/caseStudies/usdaRedesign/graphic design:design system/imgs/phoneMockup_USDA.jpg" width="100%" alt="imgTest">
+                          <h1>U.S. Department of Agriculture<br>
+                          <span class="subHeaderColor">Case Study: Homepage UI Redesign</span></h1>
+                      </div>  
+                  </div>
+                  <p>...</p>
+                <div class="nav-counter" id="scrollspyHeading5">     
+                  <h4>Conclusion & Results</h4>
+                  <div class="jumbotron jumbotron-fluid margin-top">
+                      <div class="container">
+                          <img src="img/caseStudies/usdaRedesign/graphic design:design system/imgs/phoneMockup_USDA.jpg" width="100%" alt="imgTest">
+                          <h1>U.S. Department of Agriculture<br>
+                          <span class="subHeaderColor">Case Study: Homepage UI Redesign</span></h1>
+                      </div>  
+                  </div>
+                  <p>...</p>
+                </div>  
+              </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<!--Script------------------------------------------------------------------------------------>    
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
