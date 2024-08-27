@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-dasharray: .87 .87 .87 .87 .87 .87;
+        stroke-width: .5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #452f9f;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="12.05" y="-6.52" width="7.91" height="26.05" rx="2" ry="2" transform="translate(22.51 -9.49) rotate(90)"/>
+  <rect class="cls-2" x="-.66" y="16.68" width="16.41" height="9.14" rx="2" ry="2" transform="translate(28.79 13.7) rotate(90)"/>
+  <rect class="cls-2" x="13.83" y="14.25" width="16.41" height="13.99" rx="2" ry="2" transform="translate(43.28 -.79) rotate(90)"/>
+  <line class="cls-1" x1="16" y1="13.89" x2="28.36" y2="28.93"/>
+  <line class="cls-1" x1="28.56" y1="13.77" x2="16" y2="29.16"/>
+</svg>
