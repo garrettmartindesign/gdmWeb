@@ -49,6 +49,8 @@ a {
 #sideNav {
     border-right: 1px #4646463e solid;
     height: 100%;
+    z-index: 200;
+    background-color: #fafafa;
 }
 
 #sideNav h3 {
@@ -98,6 +100,8 @@ a:hover {
 
 .problem-card {
     margin-right: 16px;
+    background-image: linear-gradient(to bottom, #462f9f, #856ce9);
+    color: white;
 
 }
 
@@ -106,9 +110,6 @@ a:hover {
     top: 16px;
 }
 
-.problem-solution {
-    margin-right: 16px;
-}
 
 .btn-primary {
     background-color: #452f9f;
@@ -325,12 +326,13 @@ blockquote footer {
 
 #navbar-example2 {
     height: 100px;
-    width: 80%;
-    margin-top: 0px !important;
-    margin-left: 1%;
-    background-color: #ffffff;
+    width: 102%;
+    margin-left: -2%;
+    padding-right: 20% !important;
+    margin-top: -10px !important;
+    background-color: #fafafa;
     border-bottom: 1px #462f9f35 solid !important;
-    box-shadow: 3px 3px 20px #00000007 !important;
+    box-shadow: 3px 3px 20px #0000000c !important;
     position: fixed;
     padding-bottom: 16px;
     font-size: .8em;
@@ -417,6 +419,8 @@ em {
 .service-card {
     padding: 16px;
     margin: 8px;
+    background-image: linear-gradient(to bottom, #462f9f, #856ce9);
+    color: white;
 }
 
 
@@ -462,8 +466,8 @@ em {
 
 .jumbotron {
     width: 100%;
-    background-color: white;
-    border-radius: 16px;
+    border-radius: 24px;
+    background-color: #fafafa;
     margin-top: 100px;
     position: relative;
 }
@@ -474,9 +478,7 @@ em {
     object-fit: cover;
     border-radius: 16px;
 }
-.navbar-example2 {
-    z-index: 10 !important;
-}
+
 #case-study-grids {
     z-index: 1 !important;
 }
