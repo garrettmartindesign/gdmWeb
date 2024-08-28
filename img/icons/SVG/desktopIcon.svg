@@ -3,21 +3,13 @@
   <defs>
     <style>
       .cls-1 {
-        stroke-width: 1.76px;
-      }
-
-      .cls-1, .cls-2 {
         fill: none;
-        stroke: #464646;
-        stroke-linecap: round;
+        stroke: #452f9f;
         stroke-miterlimit: 10;
-      }
-
-      .cls-2 {
-        stroke-width: 2.13px;
+        stroke-width: 2.1px;
       }
     </style>
   </defs>
-  <rect class="cls-2" x="2.64" y="6.29" width="26.71" height="14.1" rx="2" ry="2"/>
-  <rect class="cls-1" x="8.77" y="20.39" width="14.47" height="5.32" rx="2" ry="2"/>
+  <rect class="cls-1" x="1.97" y="5.8" width="28.07" height="14.82" rx="2" ry="2"/>
+  <rect class="cls-1" x="8.4" y="20.61" width="15.2" height="5.59" rx="2" ry="2"/>
 </svg>

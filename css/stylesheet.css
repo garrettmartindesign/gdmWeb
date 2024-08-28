@@ -188,7 +188,7 @@ ul {
 
 .navbar div {
     width: 110%;
-    border-radius: 20px;
+    border-radius: 12px;
 
 }
 
@@ -356,9 +356,14 @@ blockquote footer {
 }
 
 .page-active {
-    background-color: #452f9f;
-    color: white;
+    background-color: #dbdbdb;
+    color: #452f9f;
     border-radius: 8px;
+}
+
+
+.page-active img {
+    fill: white !important;
 }
 
 /*Imported -----------------*/

@@ -7,7 +7,7 @@
       }
 
       .cls-2 {
-        stroke-width: .93px;
+        stroke-width: 1.01px;
       }
 
       .cls-2, .cls-3, .cls-4 {
@@ -18,19 +18,19 @@
       }
 
       .cls-3 {
-        stroke-width: 2px;
+        stroke-width: 2.17px;
       }
 
       .cls-4 {
-        stroke-width: 2.12px;
+        stroke-width: 2.31px;
       }
     </style>
   </defs>
-  <rect class="cls-4" x="3.36" y="5.71" width="25.28" height="21.81" rx="2" ry="2"/>
-  <circle class="cls-3" cx="16.22" cy="18.16" r="6.23"/>
-  <line class="cls-2" x1="6.21" y1="8.51" x2="10.27" y2="8.51"/>
-  <line class="cls-3" x1="7.97" y1="4.48" x2="12.03" y2="4.48"/>
-  <line class="cls-2" x1="6.21" y1="10.41" x2="10.27" y2="10.41"/>
-  <circle class="cls-1" cx="24.57" cy="9.46" r="1.28"/>
-  <circle class="cls-1" cx="16.22" cy="18.16" r="4.79"/>
+  <rect class="cls-4" x="2.28" y="4.83" width="27.44" height="23.68" rx="2" ry="2"/>
+  <circle class="cls-3" cx="16.24" cy="18.34" r="6.76"/>
+  <line class="cls-2" x1="5.37" y1="7.87" x2="9.78" y2="7.87"/>
+  <line class="cls-3" x1="7.28" y1="3.49" x2="11.69" y2="3.49"/>
+  <line class="cls-2" x1="5.37" y1="9.93" x2="9.78" y2="9.93"/>
+  <circle class="cls-1" cx="25.3" cy="8.9" r="1.39"/>
+  <circle class="cls-1" cx="16.24" cy="18.34" r="5.2"/>
 </svg>
