@@ -23,6 +23,38 @@ a {
    
 }
 
+.solutions ul {
+    list-style: circle !important;
+    padding-left: 16px;
+}
+
+.scrolling-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    
+}
+
+.scrolling-wrapper .scrolling-item {
+    display: inline-block;
+    width: 90%;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.scrolling-item {
+    border-radius: 24px !important;
+}
+
+.content-inventory {
+    margin-left: -3% !important;
+}
+
+.transcripts {
+    width: 70%;
+}
+
 .dropdown-menu {
     width: auto;
     border-radius: 24px;
@@ -323,14 +355,22 @@ ul {
     border-bottom: 1px #4646463e solid;
 }
 
+.blockquotes {
+
+    border-right: 1px #464646 solid;
+}
+
 .blockquote {
+    
     height: 100px;
     position: relative;
+   
 }
 
 blockquote footer {
     position: absolute;
     bottom: 0;
+    
 }
 
 .nav-justified {
