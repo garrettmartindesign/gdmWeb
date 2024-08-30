@@ -18,6 +18,10 @@ body {
     margin-bottom: 80px !important;
 }
 
+.pt-4 {
+    padding-top: 120px !important;
+}
+
 a {
     color: #452f9f;
    
@@ -33,6 +37,11 @@ a {
     white-space: nowrap;
     padding: 10px;
     
+}
+
+.letter-list {
+    list-style: upper-alpha ;
+    margin-left: -22px;
 }
 
 .scrolling-wrapper .scrolling-item {
