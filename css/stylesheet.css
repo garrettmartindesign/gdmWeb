@@ -32,6 +32,13 @@ a {
     padding-left: 16px;
 }
 
+.takes ul {
+    list-style: circle  !important;
+    color: #464646;
+    padding-left: 0px !important;
+    font-size: small;
+}
+
 .scrolling-wrapper {
     overflow-x: auto;
     white-space: nowrap;
