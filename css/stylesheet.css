@@ -75,8 +75,19 @@ body {
 
 #main {
     padding-left: 24px;
-    background-color: white;
+    margin-top: 0px !important;
+    background-color: #f1effa;
 }
+
+#scrollspyHeading5 {
+    width: 100%;
+    border-radius: 24px;
+    background-color: #fafafa;
+    border-bottom: 1px #462f9f46 solid;
+    margin-top: 100px;
+    position: relative;
+}
+
 
 .mb-5 {
     margin-bottom: 80px !important;
@@ -186,14 +197,15 @@ a {
 }
 
 .navbar-brand:active {
-    background-image: linear-gradient(to bottom, #462f9f, #856ce9);
-    color: white;
+    background-image: linear-gradient(to top, #462f9f, #856ce9);
+    color: white !important;
 }
 
 #sideNav {
     height: 100%;
     z-index: 200 !important;
     background-color: white;
+    border-right: 1px #462f9f23 solid !important;
 }
 
 #sideNav h3 {
@@ -210,7 +222,7 @@ a {
     padding: 8px !important;
 }
 .icon img {
-    width: 16px !important;
+    width: 12px !important;
 }
 
 .mb-4 {
@@ -271,6 +283,9 @@ a:hover {
     color: #452f9f;
     border: none;
     border-radius: 0px;
+    padding-left: 0px;
+    position: absolute;
+    bottom: 0;
 }
 
 .btn-secondary:hover {
@@ -407,7 +422,7 @@ ul {
 
 .custom-button {
     width: 100%;
-    background-color: #452f9f;
+    background-image: linear-gradient(to top, #a091deff, #856ce910);
     padding: 8px;
     font-size: .8em;
 }
@@ -415,7 +430,7 @@ ul {
 
 
 .custom-button:hover {
-    background-color: #a091de;
+    background-image: linear-gradient(to bottom, #462f9f50, #856ce950);
 }
 
 .dropdown-toggle:focus {
@@ -441,13 +456,11 @@ ul {
 }
 
 .blockquotes {
-
     border-right: 1px #464646 solid;
 }
 
-.blockquote {
-    
-    height: 100px;
+blockquote {
+    height: 200px;
     position: relative;
    
 }
@@ -487,6 +500,7 @@ blockquote footer {
     padding-bottom: 16px;
     font-size: .8em;
     z-index: 100 !important;
+    border-bottom-left-radius: 24px;
 }
 
 .social-link img {
@@ -566,7 +580,17 @@ em {
     padding: 16px;
     margin: 8px;
     background-image: linear-gradient(to bottom, #462f9f, #856ce9);
+    background-color: transparent;
     color: white;
+
+}
+
+.reg-card {
+    padding: 16px;
+    margin: 8px;
+    background-color: transparent;
+    color: #464646;
+    
 }
 
 
@@ -614,6 +638,7 @@ em {
     width: 100%;
     border-radius: 24px;
     background-color: #fafafa;
+    border-bottom: 1px #462f9f46 solid;
     margin-top: 100px;
     position: relative;
 }
