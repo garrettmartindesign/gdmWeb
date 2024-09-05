@@ -76,16 +76,18 @@ body {
 #main {
     padding-left: 24px;
     margin-top: 0px !important;
-    background-color: #f1effa;
+    background-color: #f9f9ff;
+    height: 100%;
 }
 
-#scrollspyHeading5 {
+.background-white {
     width: 100%;
-    border-radius: 24px;
-    background-color: #fafafa;
-    border-bottom: 1px #462f9f46 solid;
-    margin-top: 100px;
+    border-radius: 36px;
+    background-color: white;
+    border: 1px #462f9f20 solid;
+    margin-top: 40px;
     position: relative;
+    padding: 16px;
 }
 
 
@@ -147,14 +149,15 @@ a {
 }
 
 .dropdown-menu {
-    width: 100%;
+    width: 99%;
     border-radius: 24px;
     border: none !important;
     background-color: transparent;
+    padding: 8px;
 }
 
 .dropdown-item:hover {
-    background-color: white;
+    background-image: linear-gradient(to bottom, #462f9f30, #856ce930);
     border-radius: 24px;
 
 }
@@ -192,13 +195,13 @@ a {
 }
 
 .navbar-brand:hover {
-    background-image: linear-gradient(to bottom, #462f9f40, #856ce940);
-    color: #1c1538!important;
+    background-image: linear-gradient(to bottom, #462f9f30, #856ce930);
+    color: #1c1538 !important;
 }
 
 .navbar-brand:active {
-    background-image: linear-gradient(to top, #462f9f, #856ce9);
-    color: white !important;
+    background-image: linear-gradient(to bottom, #462f9f20, #856ce920) !important;
+    color: #1c1538 !important;
 }
 
 #sideNav {
@@ -229,6 +232,14 @@ a {
     margin-bottom: 60px !important;
 }
 
+.mb-3 {
+    margin-bottom: 40px !important;
+}
+
+.mb-2 {
+    margin-bottom: 16px !important;
+}
+
 .rounded-lg {
     border-radius: 24px !important;
 }
@@ -254,10 +265,10 @@ a:hover {
 }
 
 .problem-card {
-    margin-right: 16px;
+    padding: 16px;
+    margin: 8px;
     background-image: linear-gradient(to bottom, #462f9f, #856ce9);
     color: white;
-
 }
 
 .title {
@@ -347,13 +358,13 @@ ul {
 }
 
 .navbar div {
-    width: 110%;
+    width: auto;
     border-radius: 12px;
 
 }
 
 .navbar div:hover {
-    background-color: #e4e0f6;
+    background-image: linear-gradient(to bottom, #462f9f30, #856ce930) !important;
     color: #1c1538;
 }
 
@@ -409,13 +420,13 @@ ul {
 }
 
 .dropdown {
+    width: 95%;
     height: auto !important;
     padding: 6px;
     border-radius: 6px;
 }
 
 .dropdown a {
-
     color: #464646;
 }
 
@@ -494,7 +505,7 @@ blockquote footer {
     width: 100%;
     padding-right: 20% !important;
     margin-top: -10px !important;
-    background-color: #fafafa;
+    background-color: white;
     border-bottom: 1px #462f9f35 solid !important;
     position: fixed;
     padding-bottom: 16px;
@@ -550,9 +561,13 @@ em {
 }
 
 .button1 {
-    background-color: #919191;
+    background-color: #1c1538;
     color: white;
     margin-right: 16px;
+}
+
+.button2 {
+    background-color: #f1effa ;
 }
 
 .button1:hover, .button2:hover {
@@ -579,16 +594,15 @@ em {
 .service-card {
     padding: 16px;
     margin: 8px;
-    background-image: linear-gradient(to bottom, #462f9f, #856ce9);
-    background-color: transparent;
-    color: white;
+    background-color: white;
+    color: #464646;
 
 }
 
 .reg-card {
     padding: 16px;
     margin: 8px;
-    background-color: transparent;
+    background-color: white;
     color: #464646;
     
 }
@@ -637,8 +651,8 @@ em {
 .jumbotron {
     width: 100%;
     border-radius: 24px;
-    background-color: #fafafa;
-    border-bottom: 1px #462f9f46 solid;
+    background-color: white;
+    border: 1px #462f9f20 solid;
     margin-top: 100px;
     position: relative;
 }
