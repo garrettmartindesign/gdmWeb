@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    const titleWords = ["photographer", "trail runner", "dog dad", "Denver-Based", "solutions specialist"]; // Add more words as needed
+    const titleWords = ["photographer", "trail runner", "dog dad", "solutions specialist"]; // Add more words as needed
     let currentIndex = 0;
 
     setInterval(function() {
