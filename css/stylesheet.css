@@ -91,6 +91,25 @@ body {
     padding: 16px;
 }
 
+.background-purple {
+    width: 100%;
+    border-radius: 36px;
+    background-image: linear-gradient(to bottom, #462f9f, #856ce9) !important;
+    color: white !important;
+    border: 1px #462f9f20 solid;
+    margin-top: 40px;
+    position: relative;
+    padding: 16px;
+}
+
+.background-purple a {
+    color: white;
+}
+
+.background-purple a:hover {
+    color: #e4e0f6;
+}
+
 .photo-grid img {
     width: 100%;
     height: auto;
