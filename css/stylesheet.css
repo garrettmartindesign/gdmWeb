@@ -70,6 +70,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
     color: #464646;
+    background-color: #f9f9ff;
    
 }
 
@@ -90,6 +91,11 @@ body {
     padding: 16px;
 }
 
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
 .mb-5 {
     margin-bottom: 80px !important;
