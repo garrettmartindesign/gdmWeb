@@ -70,14 +70,17 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
     color: #464646;
-    background-color: #f9f9ff;
+    background-color: #fafafa;
    
+}
+
+.pl-5 {
+    padding-left: 10% !important;
 }
 
 #main {
     padding-left: 24px;
     margin-top: 0px !important;
-    background-color: #f9f9ff;
     height: 100%;
 }
 
