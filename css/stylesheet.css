@@ -70,16 +70,16 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
     color: #464646;
-    background-color: #fafafa;
+    background-color: #f5f5f5;
    
 }
 
-.pl-5 {
-    padding-left: 10% !important;
+.p-5 {
+    padding: 0px 10% 0px 10% !important;
 }
 
 #main {
-    padding-left: 24px;
+    padding: 40px;
     margin-top: 0px !important;
     height: 100%;
 }
@@ -575,14 +575,15 @@ blockquote footer {
 }
 
 em {
-    color: #452f9f;
+    color: #929292;
     font-style: normal;
 }
 
 .button1, .button2 {
     width: auto;
-    border-radius: 50px;
-    padding: 4px 24px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 4px 30px;
     border: none;
     margin-right: 16px;
     color: #464646;
