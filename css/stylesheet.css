@@ -74,8 +74,10 @@ body {
    
 }
 
-.p-5 {
-    padding: 0px 10% 0px 10% !important;
+.hello-container {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 0 auto;
 }
 
 #main {
@@ -295,7 +297,7 @@ a:hover {
 .problem-card {
     padding: 16px;
     margin: 8px;
-    background-image: linear-gradient(to bottom, #462f9f, #856ce9);
+    background-image: linear-gradient(to top, #462f9f, #1c1538);
     color: white;
 }
 
@@ -392,7 +394,7 @@ ul {
 }
 
 .navbar div:hover {
-    background-image: linear-gradient(to bottom, #462f9f30, #856ce930) !important;
+    background-image: linear-gradient(to bottom, #462f9f10, #856ce910) !important;
     color: #1c1538;
 }
 
@@ -532,7 +534,7 @@ blockquote footer {
     height: 100px;
     width: 100%;
     padding-right: 20% !important;
-    margin-top: -10px !important;
+    margin-top: -40px !important;
     background-color: white;
     border-bottom: 1px #462f9f35 solid !important;
     position: fixed;
@@ -562,7 +564,7 @@ blockquote footer {
 
 
 .page-active {
-    background-image: linear-gradient(to bottom, #462f9f20, #856ce920) !important;
+    background-color: #ebebeb !important;
     color: #452f9f;
     border-radius: 8px;
 }
@@ -581,7 +583,7 @@ em {
 
 .button1, .button2 {
     width: auto;
-    height: 40px;
+    height: 36px;
     border-radius: 12px;
     padding: 4px 30px;
     border: none;
@@ -590,13 +592,13 @@ em {
 }
 
 .button1 {
-    background-color: #1c1538;
+    background-color: #929292;
     color: white;
     margin-right: 16px;
 }
 
 .button2 {
-    background-color: #f1effa ;
+    background-color: #ebebeb ;
 }
 
 .button1:hover, .button2:hover {
@@ -605,7 +607,8 @@ em {
 }
 
 .whyMe {
-    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
     background-image: linear-gradient(to bottom, #462f9f, #856ce9);
     color: white;
 }
@@ -621,6 +624,7 @@ em {
 }
 
 .service-card {
+    
     padding: 16px;
     margin: 8px;
     background-color: white;
@@ -639,6 +643,16 @@ em {
 
 .services h2 {
     margin-bottom: 24px;
+}
+
+#services {
+    background-image: linear-gradient(to bottom, #3C2D76, #1c1538);
+    color: white;
+}
+
+#services a {
+    color: white !important;
+    text-decoration: underline;
 }
 
 .more-projects {
@@ -700,9 +714,8 @@ em {
 .nav-counter {
     width: 100%;
     height: auto;
-    padding-top: 200px;
-
-    margin: 24px 0px;
+    padding-top: 140px;
+    margin: 60px 0px;
 }
 .scrollspy-example div {
     padding-top: 100px;
@@ -853,14 +866,18 @@ em {
 
 @media (min-width: 768px) and (max-width: 1050px) {
     
-  
+    #side-nav {
+        font-size: small;
+    }
+
+
 
     .icon {
         font-size: 12px !important;
-        padding: 0px !important;
+        padding: 6px !important;
     }
     .icon img {
-        width: 14px !important;
+        width: 12px !important;
     }
 }
 
@@ -894,6 +911,15 @@ em {
     .margin-header {
         margin-top: 140px;
     }
+    .hello-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-counter {
+        width: 100%;
+        height: auto;
+        padding-top: 220px;
+    }
 }
    
 
@@ -901,4 +927,6 @@ em {
     .navbar {
         border-bottom: none !important;
     }
+
+   
 }
