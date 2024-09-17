@@ -920,6 +920,12 @@ em {
         height: auto;
         padding-top: 220px;
     }
+    .contact {
+        width: 100%;
+        height: 80px;
+        border: 1px #452f9f solid;
+        border-radius: 50px !important;
+    }
 }
    
 
