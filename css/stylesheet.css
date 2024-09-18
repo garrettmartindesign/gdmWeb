@@ -91,6 +91,7 @@ body {
     border-radius: 36px;
     background-color: white;
     border: 1px #462f9f20 solid;
+    box-shadow: 1px 1px 5px #46464620 !important;
     margin-top: 40px;
     position: relative;
     padding: 16px;
@@ -298,6 +299,7 @@ a:hover {
     padding: 16px;
     margin: 8px;
     background-image: linear-gradient(to top, #462f9f, #1c1538);
+    box-shadow: 1px 1px 5px #46464620 !important;
     color: white;
 }
 
@@ -628,6 +630,7 @@ em {
     padding: 16px;
     margin: 8px;
     background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2) !important;
     color: #464646;
 
 }
@@ -636,6 +639,7 @@ em {
     padding: 16px;
     margin: 8px;
     background-color: white;
+    box-shadow: 1px 1px 5px #46464620 !important;
     color: #464646;
     
 }
@@ -646,7 +650,8 @@ em {
 }
 
 #services {
-    background-image: linear-gradient(to bottom, #3C2D76, #1c1538);
+    background-image: linear-gradient(to top, #3C2D76, #1c1538);
+    box-shadow: 1px 1px 5px #46464620 !important;
     color: white;
 }
 
