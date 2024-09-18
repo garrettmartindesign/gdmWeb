@@ -74,6 +74,10 @@ body {
    
 }
 
+h1 {
+    font-size: 3em;
+}
+
 .hello-container {
     padding-left: 8%;
     padding-right: 8%;
@@ -135,6 +139,16 @@ a {
    
 }
 
+.conclusion-cards em {
+    color: #452f9f;
+}
+
+#d_r em {
+    color: #464646;
+    text-decoration: underline;
+
+}
+
 .solutions ul {
     list-style: circle !important;
     padding-left: 16px;
@@ -145,6 +159,12 @@ a {
     color: #464646;
     padding-left: 0px !important;
     font-size: small;
+}
+
+.gray-bullets li {
+    list-style: circle  !important;
+    color: #464646 !important;
+    margin-left: -20px !important;
 }
 
 .scrolling-wrapper {
@@ -630,7 +650,7 @@ em {
     padding: 16px;
     margin: 8px;
     background-color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 1px 1px 5px #46464620 !important;
     color: #464646;
 
 }
