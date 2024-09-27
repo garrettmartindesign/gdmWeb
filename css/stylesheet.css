@@ -78,8 +78,6 @@ h1 {
     font-size: 3em;
 }
 
-.hello-container {
-}
 
 #main {
     padding: 40px;
@@ -923,6 +921,10 @@ em {
     
     .navTitle {
         margin-bottom: 0px;
+    }
+
+    h1 {
+        font-size: 2.5em;
     }
 
     .logo {
