@@ -349,16 +349,16 @@ a:hover {
     background-color: transparent;
     color: #452f9f;
     border: none;
-    border-radius: 0px;
-    padding-left: 0px;
+    border-radius: 8px;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
+    left: 32px;
+    border-bottom: 1px #452f9f20 solid;
 }
 
 .btn-secondary:hover {
     background-color: #e4e0f6;
     color: #452f9f;
-    border-bottom: 1px #452f9f solid;
 }
 
 
@@ -939,6 +939,7 @@ em {
         height: auto !important;
         width: 100%;
         position: fixed;
+        margin-top: -20px !important;
         padding-bottom: 8px;
         font-size: .8em;
         z-index: 100 !important;
