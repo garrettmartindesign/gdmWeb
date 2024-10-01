@@ -1,5 +1,8 @@
-//type fade/alternate on homepage
+//reload, no cache
+fetch('data.json', { cache: 'no-cache' })
+  .then(response => response.json())
 
+//type fade/alternate on homepage
 $(document).ready(function() {
     const titleWords = ["photographer", "trail runner", "dog dad", "solutions specialist", "front-end developer"]; // Words to change to
     let currentIndex = 0;
@@ -13,13 +16,15 @@ $(document).ready(function() {
     }, 1500); // Change the word every 2 seconds
 });
 
-// Get the element
-const comingSoon = document.getElementById("comingSoon");
+// Get all elements with the class "comingSoon"
+const comingSoonElements = document.querySelectorAll(".comingSoon");
 
-// Create the banner element
-const banner = document.createElement("div");
-banner.textContent = "Coming Soon!";
-banner.classList.add("coming-soon-banner"); // Add a CSS class for styling
+comingSoonElements.forEach(element => {
+  // Create the banner element
+  const banner = document.createElement("div");
+  banner.textContent = "Coming Soon!";
+  banner.classList.add("coming-soon-banner"); // Add a CSS class for styling
 
-// Add the banner to the element
-comingSoon.insertBefore(banner, comingSoon.firstChild);
+  
+  element.insertBefore(banner, element.firstChild); // Add the banner to the element
+});
