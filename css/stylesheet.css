@@ -81,7 +81,7 @@ h1 {
 
 #main {
     padding: 40px;
-    margin-top: 0px !important;
+    margin-top: -30px !important;
     height: 100%;
 }
 
@@ -205,7 +205,7 @@ a {
 }
 
 .featured-works {
-    background-color: #efefef;
+    background-color: #efefef50;
     border-radius: 24px;
 }
 
@@ -245,6 +245,8 @@ a {
 }
 
 .navbar-brand {
+    padding: 6px 8px;
+    border-radius: 4px;
     border-left: 1px rgba(255, 255, 255, 0) solid !important;
 }
 
@@ -352,7 +354,7 @@ a:hover {
     border-radius: 8px;
     position: absolute;
     bottom: 10px;
-    left: 32px;
+    left: 20px;
     border-bottom: 1px #452f9f20 solid;
 }
 
@@ -979,6 +981,10 @@ em {
         width: 260px;
         background-size: cover;
         background-position: center;
+    }
+    .top {
+        padding: 6px 8px;
+         margin-left: 10px;
     }
 
 }

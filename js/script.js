@@ -1,7 +1,7 @@
 //type fade/alternate on homepage
 
 $(document).ready(function() {
-    const titleWords = ["photographer", "trail runner", "dog dad", "solutions specialist"]; // Words to change to
+    const titleWords = ["photographer", "trail runner", "dog dad", "solutions specialist", "front-end developer"]; // Words to change to
     let currentIndex = 0;
 
     setInterval(function() {
