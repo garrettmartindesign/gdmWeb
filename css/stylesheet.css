@@ -875,6 +875,19 @@ em {
     cursor: pointer;
     }  
 
+.coming-soon-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #452f9f;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px #46464650 !important;
+    color: white;
+    padding: 20px 30px;
+    font-size: 18px;
+    z-index: 10;
+    }
 
 .skills-header {
     border-bottom: 1px #462f9f46 solid;

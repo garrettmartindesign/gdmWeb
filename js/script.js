@@ -12,3 +12,14 @@ $(document).ready(function() {
         });
     }, 1500); // Change the word every 2 seconds
 });
+
+// Get the element
+const comingSoon = document.getElementById("comingSoon");
+
+// Create the banner element
+const banner = document.createElement("div");
+banner.textContent = "Coming Soon!";
+banner.classList.add("coming-soon-banner"); // Add a CSS class for styling
+
+// Add the banner to the element
+comingSoon.insertBefore(banner, comingSoon.firstChild);
