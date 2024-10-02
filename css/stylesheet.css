@@ -756,7 +756,6 @@ em {
 }
 
 .about-sub {
-    padding-left: 24px;
 }
 
 #hey-yall {
@@ -880,11 +879,11 @@ em {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #452f9f;
+    background-color: #462f9ff5;
     border-radius: 16px;
     box-shadow: 1px 1px 5px #46464650 !important;
     color: white;
-    padding: 20px 30px;
+    padding: 60px 80px;
     font-size: 18px;
     z-index: 10;
     }
