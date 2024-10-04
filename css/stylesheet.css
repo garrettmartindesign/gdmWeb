@@ -195,12 +195,11 @@ a {
 }
 
 .dropdown-menu {
-    width: 96%;
     border-radius: 24px;
     border: none !important;
     background-color: #efefef;
+    width: 100% !important;
     margin-top: 8px;
-    font-size: 14px;
     padding: 8px;
 }
 
@@ -212,10 +211,9 @@ a {
 .dropdown-item:hover {
     background-color: #464646;
     border-radius: 24px;
-    color: white;
+    color: white !important;
 
 }
-
 .navbar-nav:hover {
     background-color: #f1effa !important;
 
@@ -341,12 +339,18 @@ a:hover {
     border-radius: 12px;
 }
 
+.btb-primary:active {
+    color: white;
+}
+
 .btn-primary:hover {
     background-color: #a091de;
     color: white;
     
 }
-
+#profile_img {
+    border-radius: 50%;
+}
 .btn-secondary {
     background-color: transparent;
     color: #452f9f;
@@ -416,7 +420,7 @@ ul {
 }
 
 .navbar div {
-    width: auto;
+    
     border-radius: 12px;
 
 }
@@ -478,10 +482,11 @@ ul {
 }
 
 .dropdown {
-    width: auot;
+    width: auto;
     height: auto !important;
     padding: 6px;
     border-radius: 6px;
+    
 }
 
 .dropdown a {
@@ -490,10 +495,11 @@ ul {
 
 
 .custom-button {
-    width: 100%;
-    background-image: linear-gradient(to top, #a091deff, #856ce910);
+    width: 200px;
+    background-color: #efefef;
+    color: #1c1538;
     padding: 8px;
-    font-size: .8em;
+    font-size: .5em;
 }
 
 
@@ -502,13 +508,13 @@ ul {
     background-image: linear-gradient(to bottom, #462f9f50, #856ce950);
 }
 
-.dropdown-toggle:focus {
-    border-bottom: 1px #464646 solid;
-    
+.dropdown-toggle:active {
+    color: white;
 }
 
 .dropdown-item {
     border: none;
+    font-size: 0.7em !important;
 }
 
 .icon-tools {
@@ -595,6 +601,7 @@ blockquote footer {
     background-color: #ebebeb !important;
     color: #452f9f;
     border-radius: 8px;
+    width: inherit;
 }
 
 /*Imported -----------------*/
@@ -673,6 +680,11 @@ em {
 
 .services h2 {
     margin-bottom: 24px;
+}
+
+.featured-works-page {
+    background-color: #c9c0ec;
+    border-radius: 24px;
 }
 
 #services {
