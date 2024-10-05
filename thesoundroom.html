@@ -4,7 +4,7 @@
 <meta name="author" content="Garrett Martin">    
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Garrett Martin is a Denver-based product designer and solitions specialist, specializing in UX/UI design, mobile app design, web design, graphic design, and photogrpahy. Check out his mobile app creation -- showcasing skills in product design, user-research, interactive design, Figma, team collaboration, prototyping, and user-testing.">
+<meta name="description" content="Garrett Martin is a Denver-based product designer and solitions specialist, specializing in UX/UI design, mobile app design, web design, graphic design, and photogrpahy. Check out his government homepage redesign -- showcasing skills in user- research, visual design, interactive design, Figma, team collaboration, prototyping, and user-testing.">
 <meta name="keywords" content="denver colorado, ux/ui design, web design, mobile app design, redesign">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/stylesheet.css">
@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="icon" href="../img/logo/gmLogoPurple_circle@2x.png" type="image/x-icon"> 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<title>Garrett Martin Design | The Sound Room</title>
+<title>The Sound Room | Garrett Martin Design</title>
 <style>
     
 </style>
@@ -47,29 +47,25 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="stack.html">The Stack</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="aboutme.html">About Me</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Featured Work
-              </a>
-              <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="usda.html">USDA</a>
-              </div>
-          </li>
-          </ul>
-      </div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item page-active">
+                <a class="nav-link" href="featured.html">Featured Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+    
+        </ul>
+    </div>
      
     </nav>
   <!--Desktop/Tablet Nav Bar --->
@@ -91,7 +87,7 @@
             </div>
         </a>
         <a class="container-fluid nav-item d-flex align-content-center" width="100%" href="featured.html">
-            <div class="navbar-brand icon" >
+            <div class="navbar-brand page-active icon" >
                 <img src="img/icons/SVG/starBurstIcon_gray.svg" alt="Logo"  class="d-inline-block ml-1 mr-2">
                 Featured Work
             </div>
@@ -104,7 +100,7 @@
         </a>  
         
         <a class="container-fluid nav-item d-flex align-content-center" width="100%" href="aboutme.html">
-            <div class="navbar-brand page-active icon">
+            <div class="navbar-brand icon">
                 <img src="img/icons/SVG/aboutIcon_gray.svg" alt="Logo"  class="d-inline-block ml-1 mr-2">
                 About Me
             </div>
@@ -117,42 +113,33 @@
         </a>      
         
     </nav>
-      <div class="dropdown mt-5" id="featured-work" width="90%">
-          <button type="button" class="btn btn-primary dropdown-toggle custom-button" data-toggle="dropdown">
-          Featured Projects
-          </button>
-          <div class="dropdown-menu">
-            <!--
-              <a class="dropdown-item" href="#">Sierra's Race</a>
-            -->
-              <a class="dropdown-item  page-active" href="usda.html">USDA</a>
-              <!--
-              <a class="dropdown-item" href="#">The Sound Room</a>
-              -->
-          </div>
-      </div>  
-      <div class="footInfo container footer-type fixed-bottom">
-          <p >@2024<br>Garrett Martin Design</p>
-      </div>
+    <div class="footInfo container footer-type fixed-bottom">
+        <p >@2024<br>Garrett Martin Design</p>
+    </div>
     </section>
       <div class="col-md mt-2" id="main">
         <nav id="navbar-example2" class="navbar bg-body-tertiary mb-3">
-            <a class="navbar-brand pl-5" href="#">Top</a>
-            <ul class="nav nav-pills">
+            <div class="dropdown navbar-brand mt-4 top" id="featured-work" width="90%">
+              <button type="button" class="btn btn-primary dropdown-toggle custom-button" data-toggle="dropdown">
+              <a href="#top">The Sound Room</a>
+              </button>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="usda.html">USDA</a>
+                  <a class="dropdown-item" href="#">The Sound Room</a>
+              </div>
+          </div>  
+            <ul class="nav nav-pills mt-4">
               <li class="nav-item">
-                <a class="nav-link" href="#discovery">Discovery</a>
+                <a class="nav-link" href="#user-testing">User Testing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#sythesizing">Synthesizing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#target-audience">Audience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#kpi">KPI</a>
+                <a class="nav-link" href="#information-architecture">Information Architecture</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#prototyping">Prototyping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testing">Testing</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#results">Results</a>
@@ -161,26 +148,37 @@
         </nav>
         <div class="jumbotron jumbotron-fluid margin-header p-5 mb-5">
           <h1 class="container mb-4">The Sound Room<br>
-          <em class="subHeaderColor">Case Study: Mobile App Design</em></h1>
+          <em class="subHeaderColor">UX Case Study: Mobile App Design</em></h1>
           <img src="img/caseStudies/theSoundRoom/designSystems/theSoundRoom_Mockup.png" height="500px" alt="USDA footermockup" class="mb-3">
         </div>
         <section class="container grid">
           <div class="row">
-            <div class="card col problem-card rounded-lg">
+            <div class="card col-sm-4 col-md problem-card rounded-lg">
               <div class="card-body">
                 <h4 class="card-title mb-3">Project Brief</h4>
-                <p class="card-text">Conceptualize and design a mobile app. Utilizing the user-centered design process to produce a working prototype. Conduct user-research, skecthes, wireframes, lofi prototype, user-testing. </p>
+                <p class="card-text">Design a mobile app for a product. Display knowledge of UX design process, and produce low-fidelity prototype.  </p>
               </div>
             </div>
-            <div class="card col service-card rounded-lg">
+            <div class="card col-sm-4 col-md  service-card rounded-lg">
               <div class="card-body">
                 <h4 class="card-title mb-3">Context</h4>
                 <p class="card-text">Case study done for the University of Denver. We were assigned a team to collaborate on design project of our choosing:</p>
-                <ul class="gray-bullets">
-                  <li>Develop a user research plan,</li>
-                  <li>Conduct interviews,</li>
-                  <li>Design a low-fidelity clickable prototype for moble devices,</li>
-                  <li>Test results</li>
+                <ul>
+                    <li>
+                        Develop a user research plan,
+                    </li>
+                    <li>
+                        Conduct interviews,
+                    </li>
+                    <li>
+                        Design low-fidelity clickable prototype,
+                    </li>
+                    <li>
+                        Test results
+                    </li>
+                    <li>
+                        Presetn Findings
+                    </li>
                 </ul>
               </div>  
             </div>
@@ -189,22 +187,21 @@
             <div class="card col reg-card rounded-lg">
               <div class="card-body">
                 <h4 class="card-title mb-3">Team Collaboration</h4>
-                <p class="card-text">Garrett Martin <i>UX/UI Designer</i><br>Jacueline Kharouf <i>UX/UI Designer</i><br>Jonathon Knauff <i>UX/UI Designer</i></p>
+                <p class="card-text">Garrett Martin <i>User Experience Designer</i><br>Jacueline Kharouf <i>User Experience Designer</i><br>Jacueline Kharouf <i>User Experience Designer</i></p>
               </div>
             </div>
-            <div class="card col reg-card rounded-lg">
+            <div class="card col-sm-4 col-md reg-card rounded-lg">
               <div class="card-body">
                 <h4 class="card-title mb-3">My Role</h4>
-                <p class="card-text">My contributions leaned on my background in graphic design. Understanding the demographics and the potential audience, knowledge on prototyping and components, and taking the initiatives and lead for team brainstorming sessions. </p>
-              
+                <p class="card-text">My contributions leaned on my background in graphic design. Understanding the demographics and the potential audience, knowledge on prototyping and components, and taking the initiatives and lead for team brainstorming sessions.</p>
               </div>  
             </div>
           </div> 
           <div class="row">
-            <div class="card col reg-card rounded-lg">
+            <div class="card col-sm-4 col-md reg-card rounded-lg">
               <div class="card-body">
                 <h4 class="card-title mb-3">Tools</h4>
-                <div class="row d-flex justify-content-between">
+                <div class="row d-flex justify-content-between mb-3">
                   <div class="col">
                     <img  class="icon-tools" src="/img/logo/pushLogos/figma logo.png"  alt="figma logo">
                   </div>
@@ -217,10 +214,10 @@
                   <div class="col">
                     <img  class="icon-tools" src="/img/logo/pushLogos/trello logo.png" alt="trello logo">
                   </div>
-                </div>  
+                </div> 
               </div> 
             </div>   
-            <div class="card col reg-card rounded-lg">
+            <div class="card col-sm-4 col-md reg-card rounded-lg">
               <div class="card-body">
                 <h5 class="card-title mb-3">Duration</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
@@ -232,61 +229,62 @@
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-5 rounded-2" tabindex="0"></div>
           <section class="background-white nav-counter mt-4" id="user-testing">
             <div class="container mb-5">
-              <h2 class="under-line pb-3">Discovery & Research</h2>
+              <h2 class="under-line pb-3">User Testing & Observations</h2>
             </div>
-            <div class="container grid mb-4" id="d_r">
+            <div class="container grid mb-4" id="personas">
               <div class="row">
                 <div class="col-sm-4 col-md">
                   <h4>Who's the Users?</h4>
-                  <p>Our <em>inital</em> audience was targeted towards emerging artist that needed help showcasing their skills and networking. <em>Based on our research</em> we narrowed our <em> target audience</em> to a families and <em> younger audiences</em>.</p>
-                  <h4>Brainstorming</h4>
-                  <p>From brainstorming, we selected a few features and objective for our users: <em>live streaming, collaboration, inspiration, and safety</em>.</p>
+                  <p>We found that users for the USDA vary. A wide spectrum use the site for buisness needs; keeping up-to-date, submission forms, general and specific information.
+                    These business range any where from small local own restaurant to Whole Foods to food distribution entities.</p>
+                  <p>The need for non-business purposes seem to be not as high. but it is still interesting to read the lastest information regrading agriculture and similar topics.</p>
+                  <p><i>Restaurant owners</i>, <i>package designers</i>, <i>chefs</i>, <i>grocery stores</i> and <i>other markets</i>, and other <i>industry professionals.</i></p>
                 </div>
                 <div class="col-sm-4 col-md">
-                  <img src="/img/caseStudies/theSoundRoom/deliverabels/tsr_brainstorming.png" width="100%" alt="x">
+                  <img src="/img/caseStudies/usdaRedesign/deliverables/Persona.png" width="75%" alt="x">
                 </div>
               </div>
             </div>
             <div class="container mb-5" id="transcipts" >
-              <h4>Goals</h4>
-              <p class="transcripts mb-5">Design a fun and safe social media environment for musicians and fans alike.Encouraging collaborations and nourishing inspiration. </p>
+              <h4>User Tasks</h4>
+              <p class="transcripts mb-5">Users were giving the tasks to open the USDA's website > find a specific form and perform general browsing. We specificly targeted the global navigation and forms given the high demand of usage.</p>
               <div class="grid">
               <h4>Interview Transcipts</h4>  
               <div class="cs-container row mb-5">
-                <div class="col-md-4 pt-5 blockquotes">
+                <div class="col-sm-4 col-md pt-5 blockquotes">
                   <blockquote>
                     <p>
-                      “Writers' block sucks!”
+                      “I can see this being a great resource for small and large businesses. But it feels a little boring and confusing to use.”
                     </p>
-                    <footer>
-                      - Justine
+                    <footer class="pb-2 ">
+                      - Brandon M.
                     </footer>
                   </blockquote>
                 </div>
-                <div class="col-md-4 pt-5 blockquotes">
+                <div class="col-sm-4 col-md pt-5 blockquotes">
                   <blockquote>
                     <p>
-                      “My dad had a drum set in the basement, the album Dookie from green day came out and I sayt down and leaned how to play along to the entire album.”
+                      “Bummed out about design but not surprised, “its a government website. Navigating is not awful, just a little up lift would do."”
                     </p>
                     <footer>
-                      -Tim
+                      - Jake M.
                     </footer>
                   </blockquote>
                 </div>
-                <div class="col-md-4 pt-5 ">
+                <div class="col-sm-4 col-md pt-5 ">
                   <blockquote>
                     <p>
-                      “My dad had alwasys been a musician and showed me a few things on garge band. Then when I went to college, I worked on these kinds of projects. I just love EDM.”
+                      “The UI could be “more colorful and exciting ... towards the bottom gets more lively.””
                     </p>
                     <footer>
-                      - Bob
+                      - Sam B.
                     </footer>
                   </blockquote>
                 </div>
               </div> 
             </div>
           </section>
-          <section class="background-white nav-counter pt-4" id="information-architecture">
+          <section class="background-white nav-counter mt-4" id="information-architecture">
             <div class="container mb-5">
               <h2 class="under-line pb-3">Information Architecture & Solutions</h2>
               <p class="transcripts">First understanding how their current site is layed out and opporates. From the user testing is was observed that if users did not specify exactly what to find in the search bar, it was much hard to local items. Clicking through each link became bothersome and frustrating. </p>
@@ -297,7 +295,7 @@
             </div>  
             <div class="container mb-5">
               <div class="row">
-                <div class="col">
+                <div class="col-sm-4 col-md">
                   <div class="scrolling-wrapper content-inventory">
                     <img class="scrolling-item rounded-lg" src="img/caseStudies/usdaRedesign/deliverables/ia/navAnotation.png" alt="USDA current navigation anotation">
                     <img class="scrolling-item rounded-lg" src="img/caseStudies/usdaRedesign/deliverables/ia/globalNav-contentInventory.png" alt="usda content inventory">
@@ -315,13 +313,13 @@
           </section>  
           <div class="container grid mt-5 mb-5">
             <div class="row">
-              <div class="card col problem-card rounded-lg">
+              <div class="card col-sm-4 col-md problem-card rounded-lg">
                 <div class="card-body">
                   <h4 class="card-title mb-3">Problem</h4>
                   <p class="card-text">Users are not staying on the pages long enough before exiting. They experience frustration from find and submiting forms and find the overall aesthic outdated and boring.</p>
                 </div>
               </div>
-              <div class="card col problem-card rounded-lg">
+              <div class="card col-sm-4 col-md problem-card rounded-lg">
                 <div class="card-body solutions">
                   <h4 class="card-title mb-3">Solutions</h4>
                   <ul class="card-text">
@@ -332,7 +330,7 @@
               </div>
             </div> 
           </div>   
-          <section class="background-white nav-counter pt-4 pb-5" id="prototyping">
+          <section class="background-white nav-counter mt-4 pb-5" id="prototyping">
             <div class="container mb-5">
               <h2 class="under-line pb-3">Prototyping</h2>
               <p class="transcripts">First understanding how their current site is layed out and opporates. From the user testing is was observed that if users did not specify exactly what to find in the search bar, it was much hard to local items. Clicking through each link became bothersome and frustrating. </p>
@@ -340,18 +338,18 @@
             <div class="container mb-4">
               <div class="">
                 <h4 class="mb-4">Macbook Mockup: Prototype</h4>
-                <iframe class="rounded-lg" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FK4TD16EJGEYaHN2CWvhxqe%2FUSDA-Redesign%3Fpage-id%3D151%253A23900%26node-id%3D151-24077%26node-type%3DCANVAS%26viewport%3D1022%252C855%252C0.16%26t%3DyD4F0nBpaWgg2OHe-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D151%253A24020" allowfullscreen alt="The Sound Room prototype"></iframe>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="rounded-lg" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FK4TD16EJGEYaHN2CWvhxqe%2FUSDA-Redesign%3Fpage-id%3D151%253A23900%26node-id%3D151-24077%26node-type%3DCANVAS%26viewport%3D1022%252C855%252C0.16%26t%3DyD4F0nBpaWgg2OHe-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D151%253A24020" allowfullscreen></iframe>
               </div>
             </div> 
             <div class="container mb-5">
               <div class="grid">
                 <div class="row">
-                  <div class="col pr-4">
+                  <div class="col-sm-4 col-md pr-4">
                     <h4>Design System</h4>
                     <p class="transcripts">Purposing to adapt a new design system. Bringing new life to the site, while maintaining a professional "goverment feel." </p>
                     <img src="img/caseStudies/usdaRedesign/graphic design:design system/usdaLogoAnimation.gif" width="100%" alt="USDA logo animation">
                   </div>
-                  <div class="col">
+                  <div class="col-sm-4 col-md">
                     <img src="img/caseStudies/usdaRedesign/deliverables/USDA-Style-Tile.png" alt width="100%">
                   </div>
                 </div>
@@ -360,7 +358,7 @@
             <div class="container mb-5">
               <div class="grid">
                 <div class="row">
-                  <div class="col">
+                  <div class="col-sm-4 col-md">
                     <h4>Global Navigation</h4>
                     <p class="transcripts mb-4">Results based on card sorting, content inventory and more information architecture tools andtechniques. </p>
                     <div>
@@ -405,7 +403,7 @@
                       </ol>
                     </div>
                   </div>  
-                  <div class="col">
+                  <div class="col-sm-4 col-md">
                     <img src="/img/caseStudies/usdaRedesign/deliverables/nav_anotated.png" alt="usda mood board" width="100%">
                     <img src="/img/caseStudies/usdaRedesign/deliverables/card-sorting-results_submenu.png" alt="usda mood board" width="100%">
                     <img src="/img/caseStudies/usdaRedesign/deliverables/footerNav.png" alt="usda mood board" width="100%">
@@ -413,10 +411,10 @@
                 </div>  
               </div>  
             </div> 
-            <div class="container grid mb-5 p-5 rounded-lg">
+            <div class="container grid mb-5 p-5 rounded-lg" style="background-color: #F6E4D9;">
               <h4 class="mb-4">Responsive Design</h4>
               <div class="row">
-                <div class="col">
+                <div class="col-sm-4 col-md">
                   <img src="img/caseStudies/usdaRedesign/deliverables/homepageMockupsFinal/desktop Mockup.gif" alt="homepage desktop gif" width="100%">
                 </div>
                 <div class="col d-flex justify-content-center">
@@ -431,15 +429,15 @@
               <h4>Skecthing & Ideation</h4>
               <div class="grid">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-sm-4 col-md">
                     <h5>Desktop and Mobile</h5>
                     <p>The user research suggest majority of users browse via desktop. However, I wanted to ensure a cohisive mobile firenldy experience. Design mobil efirst ensured a easier translation to larger screens. </p>
                     <img src="img/caseStudies/usdaRedesign/deliverables/iPhone_Wireframe.png" alt="wire-frame sketches" width="100%">
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4 col-md">
                     <img src="img/caseStudies/usdaRedesign/deliverables/Desktop_Wireframe_1.jpg" alt="wire-frame sketches" width="100%">
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4 col-md">
                     
                     <img src="img/caseStudies/usdaRedesign/deliverables/Sitemap.png" alt="wire-frame sketches" width="100%">
                     <h5>Site Map</h5>
@@ -452,29 +450,29 @@
               <h5>Lo-Fi Navigation Prototype</h5>
               <div class="grid">
                 <div class="row">
-                  <div class="col">
+                  <div class="col-sm-4 col-md">
                     <h5>Desktop and Mobile</h5>
                     <p>The user research suggest majority of users browse via desktop. However, I wanted to ensure a cohisive mobile firenldy experience. Design mobil efirst ensured a easier translation to larger screens. </p>
                     
                   </div>
-                  <div class="col">
+                  <div class="col-sm-4 col-md">
                     <img src="img/caseStudies/usdaRedesign/deliverables/Wireframe nav Prototype.gif" alt="wire-frame sketches" width="100%">
                   </div>
                 </div>
               </div>  
             </div>
           </section>   
-          <section class="background-white nav-counter pt-4" id="testing">
+          <section class="background-white nav-counter mt-4" id="testing">
             <div class="container mb-5">
               <h2 class="under-line pb-3">Testing & Iterations</h2>
               <p class="transcripts">Getting to the final homepage design, it went through a few iterations. Each take has its own concept of atomic design to be used as the spalsh image "jumbotron" concept. Introducing a full width image, headline, subheader, information, and a call-to-action</p>
             </div>
             <div class="container grid mb-5">
               <div class="row">
-                <div class="col">
+                <div class="col-sm-4 col-md">
                   <img src="img/caseStudies/usdaRedesign/deliverables/homepageV.1/Homepage.1_UI_Redesign.png" alt="homepage iteration 1" width="100%">
                 </div>
-                <div class="col takes">
+                <div class="col-sm-4 col-md takes">
                   <h5>Take 1</h5>
                   <ul>
                     <li>The first iteration, the alert tab is below the primary navigation. The origianl site has a message at the top-left telling the user how to determine government sites to be legit. I decided to consolidate that message with the alert bar and keep it in the top-left hand corner.</li>
@@ -484,10 +482,10 @@
                     <li>New and adjusted footer to match new design system and need links.</li>
                   </ul>
                 </div>
-                <div class="col">
+                <div class="col-sm-4 col-md">
                   <img src="img/caseStudies/usdaRedesign/deliverables/homepageV.2/homepage-V.2.png" alt="homepage iteration 1" width="100%">
                 </div>
-                <div class="col takes">
+                <div class="col-sm-4 col-md takes">
                   <h5>Take 2</h5>
                   <ul>
                     <li>This take introduces the new consolidated alerts and goverment site message (top-left). The call-to-action and topic information is justified center with elementes flush-left.</li>
@@ -499,24 +497,29 @@
                     <li>Attempted an animated logo for the footer (was not a fan).</li>
                   </ul>
                 </div>
-                <div class="col takes">
-                  <h5>Take 3</h5>
-                  <p>Hi-Fi prototyping and testing</p>
-                  <img src="img/caseStudies/usdaRedesign/deliverables/homepageV.3.png" alt="homepage iteration 1" width="100%" class="mb-3">
-                  <ul class="mb-5">
-                    <li>Trials and errors, determinig the best layout for the inital splash elements. Though this option allows the user to see the image and read applible information. User testing suggested a more fuller block.</li>
-                  </ul>
-                  <h5>A/B Testing</h5>
-                  <img src="img/caseStudies/usdaRedesign/deliverables/A_B testingHomepage 1.jpg" alt="a/b testing" width="100%" class="mb-3">
-                  <ul class="mb-5">
-                    <li>A/B testing was conducted on which color contrast user prefered. The results came back alsomst a 50/50 split; hover the light background with dark type was more desired.</li>
-                  </ul>
+                <div class="row">
+                  <div class="col-sm-4 col-md takes p-5">
+                    <h5>Take 3</h5>
+                    <p>Hi-Fi prototyping and testing</p>
+                    <img src="img/caseStudies/usdaRedesign/deliverables/homepageV.3.png" class="rounded-lg mb-3" alt="homepage iteration 1" width="100%" class="mb-3">
+                    <ul class="mb-5">
+                      <li>Trials and errors, determinig the best layout for the inital splash elements. Though this option allows the user to see the image and read applible information. User testing suggested a more fuller block.</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4 col-md takes p-5"> 
+                    <h5>A/B Testing</h5>
+                    <p>Hi-Fi prototyping and testing</p>
+                    <img src="img/caseStudies/usdaRedesign/deliverables/A_B testingHomepage 1.jpg" class="rounded-lg mb-3" alt="a/b testing" width="100%" class="mb-3">
+                    <ul class="mb-5">
+                      <li>A/B testing was conducted on which color contrast user prefered. The results came back alsomst a 50/50 split; hover the light background with dark type was more desired.</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
             
           </section>
-          <section class="nav-counter pt-4 mb-5 background-white" id="results">  
+          <section class="nav-counter mt-4 mb-5 background-white" id="results">  
             <div class="container mb-5">
               <h2 class="under-line pb-3">Results</h2>
               <h5>Messuring success</h5>
@@ -524,15 +527,15 @@
             </div>
             <div class="container grid mb-5">
               <div class="row">
-                <div class="col">
+                <div class="col-sm-4 col-md">
                   <h5>Before</h5>
                   <img src="img/caseStudies/usdaRedesign/deliverables/usda_original.png" alt="x" class="" height="500px">
                 </div>
-                <div class="col">
+                <div class="col-sm-4 col-md">
                   <h5>After</h5>
                   <img src="img/caseStudies/usdaRedesign/deliverables/homepageMockupsFinal/USDA-Homepage-desktop-final.png" alt="x" class="" height="500px">
                 </div>
-                <div class="col takes">
+                <div class="col-sm-4 col-md takes">
                   <h5>Insights</h5>
                   <ul>
                     <li><em>Information architecture</em> is a valuble in understanding how to organize content heavey sites.</li>
@@ -554,7 +557,7 @@
             
           </section>
           <section class="container mb-5 grid">
-              <div class="grid">
+              <div class="grid conclusion-cards">
                 <div class="row">
                   <div class="card col-sm-4 col-md problem-card rounded-lg">
                     <div class="card-body">
@@ -568,16 +571,14 @@
                       <h5 class="card-title mb-3">Key-Take-Aways</h5>
                       <p class="card-text">Grew better understanding of <em>atomic design</em> and importance of <em>information architecture</em>.</p>
                       <p class="card-text">Not get too focused on<em> visual design</em>. Always reference the current painpoints. </p>
-                      <p class="card-text">Always reference and understand the user painpoints.</p>
-                      
                     </div>
                   </div>
-                  <div class="card col-sm-4 col-md reg-card rounded-lg">
+                  <div class="card col-sm-4 col-md reg-card rounded-lg ">
                     <div class="card-body">
-                      <h5 class="card-title mb-3">Key-Take-Aways</h5>
-                      <p class="card-text">Grew better understanding of <em>atomic design</em> and importance of <em>information architecture</em>.</p>
-                      <p class="card-text">Not get too focused on<em> visual design</em>. Always reference the current painpoints. </p>
-                      <p class="card-text">Always reference and understand the user painpoints.</p>
+                      <h5 class="card-title mb-3">Going Forward</h5>
+                      <p class="card-text">Implement <em>login options</em> and add additional pages.</p>
+                      <p class="card-text"><em>Client/Stakeholder</em> for feedback and/or approval before continuing development.</p>
+                      <p class="card-text">More user testing.</p>
                       
                     </div>
                   </div>
