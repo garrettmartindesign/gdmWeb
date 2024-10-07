@@ -204,7 +204,7 @@ a {
 }
 
 .featured-works {
-    background-color: #efefef50;
+    background-color: transparent;
     border-radius: 24px;
 }
 
@@ -682,8 +682,21 @@ em {
 }
 
 .featured-works-page {
-    background-color: white;
+    background-image: linear-gradient(to bottom, #24242420, #1c153820);
+    box-shadow: 1px 1px 5px #ffffff20 !important;
+
     border-radius: 24px;
+}
+
+.featured-works-pageCapstone {
+    background-color: white;
+    box-shadow: 1px 1px 5px #ffffff20 !important;
+
+    border-radius: 24px;
+}
+
+.featureTitle {
+    font-size: 100px;
 }
 
 #services {
@@ -1013,6 +1026,10 @@ em {
     }
     .page-active {
         padding-left: 8px;
+    }
+
+    .featureTitle {
+        font-size: 80px;
     }
 
 }
