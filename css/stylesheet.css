@@ -205,6 +205,7 @@ a {
 
 .featured-works {
     background-color: transparent;
+    box-shadow: 1px 1px 5px #40404020 !important;
     border-radius: 24px;
 }
 
@@ -688,6 +689,10 @@ em {
     border-radius: 24px;
 }
 
+.mobile-padding {
+    padding: 0 3rem 3rem;
+}
+
 .featured-works-pageCapstone {
     background-color: white;
     box-shadow: 1px 1px 5px #ffffff20 !important;
@@ -1030,6 +1035,20 @@ em {
 
     .featureTitle {
         font-size: 80px;
+    }
+    .featured-works-page {
+        background-image: none !important;
+        box-shadow: none !important;
+        border-radius: 24px;
+    }
+    .mobile-padding {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .featured-works {
+        background-color: none !important;
+        box-shadow: none !important;
+        border-radius: 24px;
     }
 
 }
