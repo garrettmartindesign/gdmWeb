@@ -41,7 +41,7 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
   // Create a download link and trigger the download
   var link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.download   
+  link.download 
  = 'garrettMartinDesign.vcf';
   document.body.appendChild(link);
   link.click();
