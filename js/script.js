@@ -28,3 +28,22 @@ comingSoonElements.forEach(element => {
   
   element.insertBefore(banner, element.firstChild); // Add the banner to the element
 });
+
+//download business contact information
+
+document.getElementById('downloadBtn').addEventListener('click', function() {
+  // Create a vCard formatted string
+  var vcard = "BEGIN:VCARD\nVERSION:4.0\nFN:Garrett Martin Design\nTEL;TYPE=work,voice:+13039092779\nEMAIL:garrettmartindesign@gmail.com\nURL:garrettmartindesign.com\nEND:VCARD";
+
+  // Create a Blob (binary data) from the vCard string
+  var blob = new Blob([vcard], { type: "text/vcard" });
+
+  // Create a download link and trigger the download
+  var link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download   
+ = 'garrettMartinDesign.vcf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
