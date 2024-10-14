@@ -4,7 +4,7 @@ fetch('data.json', { cache: 'no-cache' })
 
 //type fade/alternate on homepage
 $(document).ready(function() {
-    const titleWords = ["photographer", "trail runner", "dog dad", "solutions specialist", "front-end developer"]; // Words to change to
+    const titleWords = ["photographer", "trail runner", "dog dad", "problem solver", "front-end developer"]; // Words to change to
     let currentIndex = 0;
 
     setInterval(function() {
@@ -47,3 +47,8 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
   link.click();
   document.body.removeChild(link);
 });
+
+//featured arrow icon changes svg icon
+function changeImage(newImageSrc) {
+  document.getElementById('featuredArrow').src = newImageSrc;
+}
