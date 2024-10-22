@@ -18,26 +18,20 @@ $(document).ready(function() {
 
 // Get all elements with the class "comingSoon"
 const comingSoonElements = document.querySelectorAll(".comingSoon");
-
 comingSoonElements.forEach(element => {
   // Create the banner element
   const banner = document.createElement("div");
   banner.textContent = "Coming Soon!";
   banner.classList.add("coming-soon-banner"); // Add a CSS class for styling
-
-  
   element.insertBefore(banner, element.firstChild); // Add the banner to the element
 });
 
 //download business contact information
-
 document.getElementById('downloadBtn').addEventListener('click', function() {
   // Create a vCard formatted string
   var vcard = "BEGIN:VCARD\nVERSION:4.0\nFN:Garrett Martin Design\nTEL;TYPE=work,voice:+13039092779\nEMAIL:garrettmartindesign@gmail.com\nURL:garrettmartindesign.com\nEND:VCARD";
-
   // Create a Blob (binary data) from the vCard string
   var blob = new Blob([vcard], { type: "text/vcard" });
-
   // Create a download link and trigger the download
   var link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
@@ -47,8 +41,3 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
   link.click();
   document.body.removeChild(link);
 });
-
-//featured arrow icon changes svg icon
-function changeImage(newImageSrc) {
-  document.getElementById('featuredArrow').src = newImageSrc;
-}
