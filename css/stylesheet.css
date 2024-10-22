@@ -281,7 +281,7 @@ a {
 #sideNav {
     height: 100%;
     z-index: 200 !important;
-    background-color: #e9e9e9;
+    background-color: #f6f6f6;
     border-right: 1px #462f9f23 solid !important;
 }
 
@@ -737,6 +737,11 @@ em {
     font-size: 100px;
 }
 
+.titleHome {
+    font-size: 1.5em;
+}
+
+
 #services {
     background-image: linear-gradient(to top, #3C2D76, #1c1538);
     box-shadow: 1px 1px 5px #46464620 !important;
@@ -972,35 +977,11 @@ em {
    
 }
 
-
-
-
-@media (min-width: 577px) and (max-width: 767px) {
-    .icon img {
-        display: none !important;
-    }
-
-    
+.tsr-body {
+    background-image: linear-gradient(to bottom, #EF286A50, #744D9220);
 
 }
 
-
-@media (min-width: 768px) and (max-width: 1050px) {
-    
-    #side-nav {
-        font-size: small;
-    }
-
-
-
-    .icon {
-        font-size: 12px !important;
-        padding: 6px !important;
-    }
-    .icon img {
-        width: 12px !important;
-    }
-}
 
 @media (max-width: 767px) {
     #main {
