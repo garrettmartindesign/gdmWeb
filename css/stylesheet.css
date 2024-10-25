@@ -139,6 +139,10 @@ a {
    
 }
 
+.logo img{
+    width: 40px;
+}
+
 .conclusion-cards em {
     color: #452f9f;
 }
@@ -264,9 +268,6 @@ a {
     
 }
 
-.text-align-center {
-
-}
 
 .navbar-brand:hover {
     background-image: linear-gradient(to bottom, #462f9f30, #856ce930);
@@ -749,6 +750,10 @@ em {
 
 }
 
+.back-arrow {
+    margin-left: -60px;
+}
+
 #services a {
     color: white !important;
     text-decoration: underline;
@@ -1098,7 +1103,18 @@ em {
     }
 
     .featuredArrow {
-        width: 30%;
+        width: 25%;
+    }
+
+    .back-arrow {
+        width: 60px;
+        margin-left: -10px;
+        margin-top: -60px !important;
+    }
+
+    .mobile-center {
+        display: flex;
+        justify-content: center;
     }
 }
    

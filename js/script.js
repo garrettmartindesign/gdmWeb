@@ -41,3 +41,8 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
   link.click();
   document.body.removeChild(link);
 });
+
+//Arrow hover
+function changeImage(newImageSrc) {
+  document.getElementById('arrowHoverSwap').src = newImageSrc;
+}
