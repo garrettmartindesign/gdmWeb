@@ -82,7 +82,7 @@ h1 {
     padding: 40px;
     margin-top: -30px !important;
     height: 100%;
-    background-color: #ececec;
+    background-color: white;
 }
 
 .featured-background {
@@ -282,8 +282,7 @@ a {
 #sideNav {
     height: 100%;
     z-index: 200 !important;
-    background-color: #f6f6f6;
-    border-right: 1px #462f9f23 solid !important;
+    background-color: transparent;
 }
 
 #sideNav h3 {
@@ -986,7 +985,10 @@ em {
     background-image: linear-gradient(to bottom, #EF286A50, #744D9220);
 
 }
+.carousel-item  {
+    height: auto;
 
+}
 
 @media (max-width: 767px) {
     #main {
@@ -1113,6 +1115,11 @@ em {
     }
 
     .mobile-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-icons {
         display: flex;
         justify-content: center;
     }
