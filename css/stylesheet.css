@@ -579,7 +579,7 @@ blockquote footer {
     margin-top: 40px;
 }
 .margin-header {
-    margin-top: 120px;
+    margin-top: 0px !important;
 }
 
 .jumbtron img {
@@ -816,7 +816,7 @@ em {
 .nav-counter {
     width: 100%;
     height: auto;
-    padding-top: 140px;
+    padding-top: 40px;
     margin: 60px 0px;
 }
 .scrollspy-example div {
@@ -826,6 +826,9 @@ em {
     margin-top: -60px;
 }
 
+.rounded-md {
+    border-radius: 20px;
+}
 
 #hey-yall {
     padding-left: 24px;
