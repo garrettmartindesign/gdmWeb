@@ -4,7 +4,7 @@ fetch('data.json', { cache: 'no-cache' })
 
 //type fade/alternate on homepage
 $(document).ready(function() {
-    const titleWords = ["photographer", "trail runner", "dog dad", "problem solver"]; // Words to change to
+    const titleWords = ["photographer", "trail runner", "dog dad", "artist"]; // Words to change to
     let currentIndex = 0;
 
     setInterval(function() {

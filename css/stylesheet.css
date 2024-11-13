@@ -91,13 +91,10 @@ h1 {
 }
 
 .background-white {
-    width: 100%;
     border-radius: 36px;
     background-color: white;
-    border: 1px #462f9f20 solid;
     box-shadow: 1px 1px 5px #46464620 !important;
     margin-top: 40px;
-    position: relative;
     padding: 16px;
 }
 
@@ -140,7 +137,7 @@ a {
 }
 
 .logo img{
-    width: 40px;
+    width: 32px;
 }
 
 .conclusion-cards em {
@@ -293,9 +290,14 @@ a {
 }
 
 .swatchSquare {
-    padding: 8px;
     color: white;
+    width: 30px !important;
 }
+
+.swatchSquare ul {
+    padding: 24px 0px 12px 0px;
+}
+
 
 #space-blue {
     background-color: #262B51;
@@ -304,6 +306,10 @@ a {
 #rustic-orange {
     background-color: #f47d46;
 
+}
+
+#sunsetting-yellow {
+    background-color: #febe2e;
 }
 
 .icon {
@@ -384,7 +390,9 @@ a:hover {
 }
 #profile_img {
     border-radius: 50%;
+    width: 200px;
 }
+
 .btn-secondary {
     background-color: transparent;
     color: #452f9f;
@@ -805,6 +813,11 @@ em {
     font-size: .7em;
 }
 
+#aboutme {
+    width: 80%;
+
+}
+
 .jumbotron {
     width: 100%;
     border-radius: 24px;
@@ -1006,8 +1019,13 @@ em {
 }
 
 .bottom-divider {
+
+}
+
+.divider {
+    width: 70%;
     border-bottom: 1px solid #24242440;
-    margin: 40px 30% 40px 30%;
+    margin: 40px auto;
 }
 
 
@@ -1017,6 +1035,12 @@ em {
         margin-left: 0px;
         padding: 0px;
     }
+
+    #aboutme {
+        width: 100%;
+    
+    }
+
     .services {
         margin: 0px 16px;
     }
@@ -1032,12 +1056,17 @@ em {
         margin-bottom: 0px;
     }
 
+    #profile_img {
+        border-radius: 50%;
+        width: 160px;
+    }
+
     .profileRound {
         border-radius: 50%;
     }
 
     h3, h4 {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     #navbar-example2 {
