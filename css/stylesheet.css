@@ -292,7 +292,19 @@ a {
     font-size: 16px !important;
 }
 
+.swatchSquare {
+    padding: 8px;
+    color: white;
+}
 
+#space-blue {
+    background-color: #262B51;
+}
+
+#rustic-orange {
+    background-color: #f47d46;
+
+}
 
 .icon {
     font-size: 16px !important;
@@ -992,6 +1004,12 @@ em {
     height: auto;
 
 }
+
+.bottom-divider {
+    border-bottom: 1px solid #24242440;
+    margin: 40px 30% 40px 30%;
+}
+
 
 @media (max-width: 767px) {
     #main {

@@ -46,3 +46,4 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
 function changeImage(newImageSrc) {
   document.getElementById('arrowHoverSwap').src = newImageSrc;
 }
+

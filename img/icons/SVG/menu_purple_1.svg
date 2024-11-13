@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.5 34.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #452f9f;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+    <line class="cls-1" x1="14.81" y1="2.43" x2="14.81" y2="31.71"/>
+  </g>
+</svg>
