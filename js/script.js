@@ -47,3 +47,20 @@ function changeImage(newImageSrc) {
   document.getElementById('arrowHoverSwap').src = newImageSrc;
 }
 
+//scroll to top
+// Select the link element (replace '#myLink' with the actual ID of your link)
+const link = document.querySelector('#topScroll');
+
+// Add an event listener for clicks on the link
+link.addEventListener('click', function(event) {
+  // Prevent the default link behavior (jumping to the anchor)
+  event.preventDefault();   
+
+
+  // Scroll to the top of the page smoothly
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
