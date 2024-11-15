@@ -70,7 +70,8 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
     color: #464646;
-   
+    background-image: linear-gradient(to bottom, #242424, #1c1538) !important;
+
 }
 
 h1 {
@@ -279,7 +280,7 @@ a {
 #sideNav {
     height: 100%;
     z-index: 200 !important;
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 #sideNav h3 {
@@ -1024,8 +1025,8 @@ em {
 
 .divider {
     width: 70%;
-    border-bottom: 1px solid #24242440;
-    margin: 40px auto;
+    border-bottom: 1px solid #ffffff40;
+    margin: 80px auto;
 }
 
 
