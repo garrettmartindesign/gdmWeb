@@ -64,3 +64,77 @@ link.addEventListener('click', function(event) {
   });
 });
 
+
+//Icon scrolling at the top
+//'my-icon1', 'my-icon2', 'my-icon3', 'my-icon4', 'my-icon5', 'my-icon6', 'my-icon6', 'my-icon7', 'my-icon8', 'my-icon9', 'my-icon10'
+
+const banner = document.getElementById('banner');
+    const iconContainer = document.getElementById('icon-container');
+    const iconTypes = ['my-icon1', 'my-icon2', 'my-icon3', 'my-icon4', 'my-icon5',
+      'my-icon6', 'my-icon7', 'my-icon8', 'my-icon9', 'my-icon10', 'my-icon1', 'my-icon2', 'my-icon3', 'my-icon4', 'my-icon5',
+      'my-icon6', 'my-icon7', 'my-icon8', 'my-icon9', 'my-icon10'
+    ];
+    const numIcons = iconTypes.length;
+    const iconWidth = 20 + 10;
+
+    const containerWidth = numIcons * iconWidth;
+    iconContainer.style.width = `${containerWidth}px`;
+
+    for (let i = 0; i < numIcons; i++) {
+      const icon = document.createElement('div');
+      icon.classList.add('iconS');
+      const iconType = iconTypes[i];
+      icon.classList.add(iconType);
+      iconContainer.appendChild(icon);
+    }
+ 
+    // Select all anchor links that point to an ID on the same page
+const anchorLinks = document.querySelectorAll('a[href^="#"]');
+
+// Add a click event listener to each anchor link
+anchorLinks.forEach(link => {
+  link.addEventListener('click',   
+ function(event) {
+    event.preventDefault(); // Prevent the default jumpy behavior
+
+    const targetId = this.getAttribute('href'); // Get the target element's ID
+    const targetElement = document.querySelector(targetId);   
+ // Select the target element
+
+    // Scroll smoothly to the target element
+    targetElement.scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const navbarTogglerIcon = document.querySelector('.navbar-toggler-icon');
+
+// Change the color to red
+navbarTogglerIcon.style.color = 'white'; 
+
+// Or, change the color using a CSS class
+navbarTogglerIcon.classList.add('my-icon-color');
+});
+
+const navbarToggler = document.querySelector('.navbar-toggler');
+const navbar = document.querySelector('.navbar-collapse'); // Assuming your navbar has the class "navbar-collapse"
+const navbarLinks = document.querySelectorAll('.navbar-nav a'); // Select all links within the navbar
+
+// Add a click event listener to each navbar link
+navbarLinks.forEach(link => {
+  link.addEventListener('click', function() {
+    if (navbar.classList.contains('show')) {
+      navbarToggler.click(); // Trigger a click on the toggle button to close the navbar
+    }
+  });
+});
+
+// Add a click event listener to the document (to close on clicks outside the navbar)
+document.addEventListener('click', function(event) {
+  if (!navbarToggler.contains(event.target) && !navbar.contains(event.target) && navbar.classList.contains('show')) {
+    navbarToggler.click();
+  }
+});

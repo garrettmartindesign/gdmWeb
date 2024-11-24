@@ -69,9 +69,7 @@ $gradient-radial: radial-gradient(#f1effaff, #e4e0f6ff, #d6d0f1ff, #c9c0ecff, #a
 body {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
-    color: #464646;
-    background-image: linear-gradient(to bottom, #242424, #1c1538) !important;
-
+    color: white;
 }
 
 h1 {
@@ -83,20 +81,17 @@ h1 {
     padding: 40px;
     margin-top: -30px !important;
     height: 100%;
-    background-color: white;
+    color: white;
 }
 
-.featured-background {
-    background-image: linear-gradient(to bottom, #242424, #1c1538) !important;
 
-}
 
 .background-white {
-    border-radius: 36px;
     background-color: white;
-    box-shadow: 1px 1px 5px #46464620 !important;
-    margin-top: 40px;
-    padding: 16px;
+    box-shadow: -1px 1px 24px #e4e0f650 !important;
+    border: 1px solid #452f9f50;
+    border-radius: 24px;
+    color: #464646;
 }
 
 .background-purple {
@@ -163,6 +158,15 @@ a {
     font-size: small;
 }
 
+#featured-work {
+    margin-bottom: 80px !important;
+}
+
+.about-sub {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
 .gray-bullets li {
     list-style: circle  !important;
     color: #464646 !important;
@@ -214,7 +218,6 @@ a {
     background-color: white;
     box-shadow: -1px 1px 16px #40404020 !important;
     border-radius: 24px;
-    border-top-left-radius: -5;
 }
 
 .dropdown-item:hover {
@@ -234,6 +237,7 @@ a {
 
 .side-nav {
     margin: -24px !important;
+    margin-top: 320px !important;
 }
 
 .custom-rounded-top {
@@ -247,9 +251,10 @@ a {
 }
 
 .navbar-mobile {
-    background-image: linear-gradient(to bottom, #462f9f0a, #856ce90a);
+    background-color: rgb(70, 47, 159, .05) !important;
+    backdrop-filter: blur(16px) !important;
     border-bottom: 1px #4646463e solid ;
-    
+
 }
 
 .navbar-brand img {
@@ -261,20 +266,36 @@ a {
 .navbar-brand {
     padding: 6px 8px;
     border-radius: 4px;
-    border-left: 1px rgba(255, 255, 255, 0) solid !important;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.013);
+    color: white;
     
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
+.card-img-top {
+    border-top: .02px solid #462f9f10;
+
+}
+
+.card-header {
+    background-color: white;
+}
+
+.card-title em{
+    font-size: 14px;
+}
 
 .navbar-brand:hover {
     background-image: linear-gradient(to bottom, #462f9f30, #856ce930);
-    color: #1c1538 !important;
+    color: #e4e0f6 !important;
 }
 
 .navbar-brand:active {
     background-image: linear-gradient(to bottom, #462f9f20, #856ce920) !important;
-    color: #1c1538 !important;
+    color: #452f9f !important;
 }
 
 #sideNav {
@@ -314,7 +335,7 @@ a {
 }
 
 .icon {
-    font-size: 16px !important;
+    font-size: 14px !important;
     padding: 8px !important;
 }
 .icon img {
@@ -447,8 +468,9 @@ a:hover {
 .nav-link {
     text-decoration: none;
     flex-direction: column;
-    color: #464646;
+    color: white !important;
     list-style: none;
+    padding-left: 8px !important;
 }
 
 
@@ -739,8 +761,8 @@ em {
 
 .featured-works-page {
     background-image: linear-gradient(to bottom, #242424, #1c1538);
-    box-shadow: -1px 1px 16px #ffffff20 !important;
-
+    box-shadow: -1px 1px 24px #ffffff20 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
 }
 
@@ -760,13 +782,20 @@ em {
 
 .titleHome {
     font-size: 1.5em;
+    margin-top: 40px !important;
+}
+
+.titleHome img {
+    margin-bottom: 80px;
 }
 
 
 #services {
-    background-image: linear-gradient(to top, #3C2D76, #1c1538);
-    box-shadow: 1px 1px 5px #46464620 !important;
+    background-image: linear-gradient(to top, #452f9f, #1c1538);
+    box-shadow: -1px 1px 24px #ffffff20 !important;
     color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 80px;
 
 }
 
@@ -783,9 +812,12 @@ em {
     padding: 0px;
 }
 
-.nav-item div {
+#bbrc {
     width: 100% !important;
-    height: auto;   
+}
+
+.nav-item div {
+    width: 102% !important;
 }
 
 .nav-item img {
@@ -814,10 +846,21 @@ em {
     font-size: .7em;
 }
 
-#aboutme {
-    width: 80%;
 
+#aboutMe {
+    border-radius: 24px;
+    width: 90%;
+    margin: 60px auto;
 }
+
+#aboutMe img {
+    border-radius: 16px;
+}
+
+#aboutMe div {
+    justify-content: center;
+}
+
 
 .jumbotron {
     width: 100%;
@@ -914,16 +957,15 @@ em {
 
 .contactForm {
     width: 100%;
-    height: 500px;
+    height: 700px;
     margin: 0px auto;
     margin-top: 40px;
-    border-radius: 8px;
+    border-radius: 24px;
     display: flex;
     flex-direction: column;
     grid-template-columns: 1fr;
-    border: 1px #462f9f26 solid;
+    background-color: none !important;
     color: #464646;
-    padding: 32px;
   
   }
   .formTop {
@@ -1019,9 +1061,6 @@ em {
 
 }
 
-.bottom-divider {
-
-}
 
 .divider {
     width: 70%;
@@ -1029,6 +1068,33 @@ em {
     margin: 80px auto;
 }
 
+#photoGallery {
+    background-color: white;
+    box-shadow: -1px 1px 24px #e4e0f650 !important;
+    border: 1px solid #452f9f50;
+    border-radius: 24px;
+    color: #464646;
+    margin-bottom: 180px !important;
+}
+
+#photoGallery img {
+    border-radius: 16px;
+}
+
+#topScroll div{
+    background-color: transparent;
+    border-bottom: rgba(255, 255, 255, 0.095) solid 1px;
+    box-shadow: 1px 5px 5px #46464620 !important;
+
+}
+
+.iconS {
+    opacity: 0.2;
+}
+
+.my-icon-color {
+    color: white; /* Example color */
+}
 
 @media (max-width: 767px) {
     #main {
@@ -1037,7 +1103,7 @@ em {
         padding: 0px;
     }
 
-    #aboutme {
+    #aboutMe {
         width: 100%;
     
     }
@@ -1105,6 +1171,7 @@ em {
         width: 100% !important;
         margin-bottom: 16px;
     }
+
     .button2 {
         width: 100% !important;
     }
@@ -1120,7 +1187,7 @@ em {
          margin-left: 10px;
     }
     .page-active {
-        padding-left: 8px;
+        padding-left: 0px;
     }
 
     .featureTitle {
@@ -1131,7 +1198,7 @@ em {
         border-radius: 24px;
     }
     .mobile-padding {
-        padding: 1rem 1rem 0rem 1rem;
+        padding: 0px 8px 0px 8px;
     }
 
     .featured-works {
@@ -1139,7 +1206,8 @@ em {
     }
 
     #services {
-        margin: 0;
+        margin: 0 auto;
+        width: 100%;
         padding-top: 80px !important;
         padding-bottom: 80px !important;
         border-radius: 0px !important;
@@ -1174,12 +1242,62 @@ em {
         display: flex;
         justify-content: center;
     }
+
+    #banner {
+        margin-top: 24px !important;
+    }
+
+    .iconS {
+        margin-right: 20% !important;
+    }
+    
+    .titleHome {
+        margin-top: -20px !important;
+    }
+
+    .titleHome h1 {
+        font-size: 1.7em;
+    }
+
+    .titleHome img {
+        margin-bottom: 40px !important;
+        width: 80px !important;
+    }
+
+    .about-sub {
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .about-sub h3, h6 {
+        font-size: 1em;
+    }
+
+    #featured-work {
+        padding-top: 60px !important;
+    }
+
+    .navTitle h5, h6 {
+        font-size: .7em;
+    }
+    #mobile-logo {
+        width: 40px;
+    }
+
+
 }
    
 
 @media (min-width: 768px) {
     .navbar {
         border-bottom: none !important;
+    }
+
+
+    #aboutMe {
+        border-radius: 24px;
+        width: 100%;
+        margin: 60px auto;
     }
 
    
