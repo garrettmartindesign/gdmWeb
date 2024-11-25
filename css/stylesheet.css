@@ -231,13 +231,17 @@ a {
 
 }
 
+.mobile-divider li {
+    border-bottom: .25px rgba(255, 255, 255, 0.045) solid !important;
+}
+
 .type-purple {
     color: #452f9f !important;
 }
 
 .side-nav {
     margin: -24px !important;
-    margin-top: 320px !important;
+    margin-top: 100px !important;
 }
 
 .custom-rounded-top {
@@ -251,7 +255,8 @@ a {
 }
 
 .navbar-mobile {
-    background-color: rgb(70, 47, 159, .05) !important;
+    background-color: #1c153890 !important;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(16px) !important;
     border-bottom: 1px #4646463e solid ;
 
@@ -412,7 +417,7 @@ a:hover {
 }
 #profile_img {
     border-radius: 50%;
-    width: 200px;
+    width: 160px;
 }
 
 .btn-secondary {
@@ -762,7 +767,7 @@ em {
 }
 
 .featured-works-page {
-    background-image: linear-gradient(to bottom, #242424, #1c1538);
+    background-image: linear-gradient(to bottom, #24242499 , #1c153899);
     box-shadow: -1px 1px 24px #ffffff20 !important;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
@@ -784,13 +789,16 @@ em {
 
 .titleHome {
     font-size: 1.5em;
-    margin-top: 40px !important;
+    margin-top: -10px !important;
 }
 
 .titleHome img {
     margin-bottom: 80px;
 }
 
+.titleHome h1 {
+    font-size: 2em;
+}
 
 #services {
     background-image: linear-gradient(to top, #452f9f, #1c1538);
@@ -1265,21 +1273,21 @@ em {
     }
     
     .titleHome {
-        margin-top: -20px !important;
+        margin-top: 0px !important;
     }
 
     .titleHome h1 {
-        font-size: 1.7em;
+        font-size: 2em;
     }
 
     .titleHome img {
-        margin-bottom: 40px !important;
+        margin-bottom: 60px !important;
         width: 80px !important;
     }
 
     .about-sub {
-        margin-top: 40px !important;
-        margin-bottom: 20px !important;
+        margin-top: 80px !important;
+        margin-bottom: 80px !important;
     }
 
     .about-sub h3, h6 {
@@ -1287,16 +1295,19 @@ em {
     }
 
     #featured-work {
-        padding-top: 60px !important;
+        padding-top: 10px !important;
     }
 
     .navTitle h5, h6 {
-        font-size: .7em;
+        font-size: 1em;
     }
     #mobile-logo {
         width: 40px;
     }
 
+    .titleHome span {
+        display: block;
+    }
 
 }
    
