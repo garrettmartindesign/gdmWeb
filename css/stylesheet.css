@@ -648,9 +648,6 @@ blockquote footer {
     border-bottom-left-radius: 24px;
 }
 
-.profilePhoto span {
-    margin-left: -35px;
-}
 
 .social-link img {
     display: block;
@@ -1132,6 +1129,7 @@ em {
         margin: 0px 16px;
     }
     .navTitle {
+        padding-top: 5px;
         margin-bottom: 0px;
     }
 
@@ -1286,8 +1284,8 @@ em {
     }
 
     .about-sub {
-        margin-top: 80px !important;
-        margin-bottom: 80px !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
     }
 
     .about-sub h3, h6 {
@@ -1295,13 +1293,13 @@ em {
     }
 
     #featured-work {
-        padding-top: 10px !important;
+        padding-top: 30px !important;
     }
 
     .navTitle h5, h6 {
         font-size: 1em;
     }
-    #mobile-logo {
+    .mobile-logo img{
         width: 40px;
     }
 
