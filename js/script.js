@@ -138,3 +138,47 @@ document.addEventListener('click', function(event) {
     navbarToggler.click();
   }
 });
+
+//photo gallery
+const images = document.querySelectorAll('.gallery img');
+
+images.forEach(image => {
+    image.addEventListener('click', () => {
+        // Create a modal element
+        const modal = document.createElement('div');
+        modal.classList.add('modal');
+
+        // Create an image element for the modal
+        const modalImage = document.createElement('img');
+        modalImage.src = image.src;
+
+
+        // Append the image to the modal and the modal to the body
+        modal.appendChild(modalImage);
+        document.body.appendChild(modal);
+
+        // Add a click event listener to close the modal
+        modal.addEventListener('click', () => {
+            modal.remove();
+        });
+    });
+});
+
+//load more button gallery 
+const loadMoreBtn = document.getElementById('loadMoreBtn');
+const gallery = document.querySelector('.gallery');
+
+const moreImages = [
+    "img/photography/A-Sunset-From-the-Hudson.png",
+    "img/photography/artemis_condo.png",
+    "img/photography/batonrouge-bridge.png"
+];
+
+loadMoreBtn.addEventListener('click', () => {
+    moreImages.forEach(imageSrc => {
+        const img = document.createElement('img');
+        img.src = imageSrc;
+        gallery.appendChild(img);
+    });
+    loadMoreBtn.style.display = 'none';
+});
