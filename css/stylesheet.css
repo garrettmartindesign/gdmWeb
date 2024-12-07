@@ -799,7 +799,7 @@ em {
 
 #services {
     padding: 100px 0px 100px 0px !important;
-    background-color: #e26a0ea3;
+    background-color: #4454C7;
     box-shadow: -1px 1px 24px #ffffff20 !important;
     color: white !important;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -985,6 +985,7 @@ em {
     color: white;
   
   }
+
   .formTop {
     width: 100%;
     display: flex;
@@ -1120,7 +1121,7 @@ em {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
     gap: 60px;
     border: none;
 }
@@ -1355,6 +1356,10 @@ em {
 
     .titleHome span {
         display: block;
+    }
+
+    #contact {
+        height: 800px !important;
     }
 
 }
